@@ -323,6 +323,7 @@ class USBStick:
             unit[1] += 1
             self.write([code],test)
             time.sleep(int(mt.group(2)))
+            codes.append(self.generatecode(channel, unit, COMMAND_HALT))
         else:
             unit[1] += 1
 

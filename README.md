@@ -1,4 +1,4 @@
-[![Donations Badge](https://yourdonation.rocks/images/badge.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TDSRUDJ9EL98J&source=url)
+[![Donations Badge](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TDSRUDJ9EL98J&source=url)
 
 This project automates "Becker Antriebe" shutter also known as CC31/CC51 using the Centronic USB Stick V2
 
@@ -21,7 +21,7 @@ It is necessary to own such USB device and to PAIR it first, before using comman
    --add <modifier>: used to add a db entry
     --remove <code>: used to remove an entry from db
 
-Version 0.7 - Authors: ole1986, toolking
+Version 0.8 - Authors: ole1986, toolking
 ```
 
 ### INSTALLATION
@@ -147,6 +147,6 @@ code      increment configured  last run
 Since this script requires to store the incremental numbers for any unit being configured, the database file `centronic-stick.db` is used.
 It might be necessary to manually change or increase the number to match with the receiver.
 
-Use the argument `--mod "<code>:<increment>:<configured>"` (CAREFULLY) to set the unit properties
+Use the argument `--mod "<unit>:<increment>:<configured>"` (CAREFULLY) to set the unit properties
 
 Further technical details can be found in the [TECHNICAL.md](TECHNICAL.md) document
